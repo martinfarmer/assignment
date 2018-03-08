@@ -1,6 +1,10 @@
 # assignment
 Highlight of great OOA and software for potential job - upload a file with metadata and store to mongo. Include unit tests.
 
+## The challenge
+
+Implement a Restful API in spring-boot application. API to upload a file with a few meta-data fields. Persist meta-data in persistent store (In memory DB or file system and store the content on a file system). Upon finishing, please upload the assignment to GitHub. The project also should include unit tests and readme.txt file.
+
 ## design
 The Handler package deal with writing files and metadata. There is an abstract implementation that writes files to disk. There is a database implemention, using H2, for writing metadata to database.
 
