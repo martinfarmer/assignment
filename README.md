@@ -1,6 +1,13 @@
 # assignment
 Highlight of great OOA and software for potential job - upload a file with metadata and store to mongo. Include unit tests.
 
+## design
+The Handler package deal with writing files and metadata. There is an abstract implementation that writes files to disk. There is a database implemention, using H2, for writing metadata to database.
+
+The FilePersistenceService is a command design pattern that has a DI FileHandler, and simply know what to call to save a file and metadata.
+
+The FileUploadController is the main Spring RestController and handles unmarchalling JSON metadata from the incoming http post into a Java POJO, and the ofloading to the FilePersistenceService
+
 ## Getting Started
 
 To run the software, you will need to have a mongodb instance running on the same host, on port 27017.
