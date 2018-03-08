@@ -21,7 +21,7 @@ A mongodb solution would require a new Spring Repository interface that would ha
 
 ## Getting Started
 
-To run the software, you will need to have a mongodb instance running on the same host, on port 27017.
+For ease in running the software, H2 (an in-memory database is being used). No additional dependecies are required.
 
 ### Prerequisites
 
