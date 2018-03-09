@@ -1,5 +1,5 @@
 # assignment
-Highlight of great OOA and software for potential job - upload a file with metadata and store to mongo. Include unit tests.
+Highlight of great OOA and software for potential job - upload a file with metadata and store to a database. Include unit tests.
 
 ## The challenge
 
@@ -26,7 +26,6 @@ For ease in running the software, H2 (an in-memory database is being used). No a
 ### Prerequisites
 
 - There is a bug in the reflection code in earlier versions of java 1.8 that prevent the mapping of JSON representation of Map (as a string) being unmarshalled to a Map - You need to run java 1.8_161 or later to avoid this bug
-- mongodb installed and running
 
 ### Testing with curl
 ```
